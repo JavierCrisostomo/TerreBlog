@@ -1,5 +1,5 @@
-# Sinatra con Twitter Bootstrap
-Configuración mínima de [Twitter Bootstrap](http://twitter.github.com/bootstrap/).
+# Desarrollo de un Engine Blog usando Sinatra
+
 
 ## Como ejecutar
 
