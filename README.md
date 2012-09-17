@@ -1,4 +1,4 @@
-# Desarrollo de un Engine Blog usando Sinatra
+# Desarrollo de un Blog Engine usando Sinatra
 
 
 ## Como ejecutar
