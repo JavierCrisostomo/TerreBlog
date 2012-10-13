@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TerreBlog</title>  
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="/js/jquery.timeago.js"></script>
+  <script type="text/javascript" src="/js/blog.js"></script>
+  <link rel="stylesheet" media="screen" href="/css/blog.css" />
+  <link rel="stylesheet" media="screen" href="/css/style.css" />
+  <link rel="stylesheet" media="screen" href="/css/ie.css" />
+</head>
+<body>
+<div class="container_12">
+	<!-- header -->
+	<div id="hd" class="grid_12">
+		<div id="topmenu">
+			<ul class="topmenu clearfix">
+				<li class="current"><a href="http://blogandweb.com/" title="Inicio">Inicio</a></li>
+				<li><a href="" title="Nosotros">Nosotros</a></li>
+				<li><a href="" title="Contacto">Contacto</a></li>                
+			</ul>
+		</div>
+		<div id="banner"><img src="img/header.png" alt="TerreBlog"></div>
+	</div>  
+	<!-- /header -->
+	<!-- body -->
+	<div id="bd" class="grid_12">
+	<%= yield %>
+	</div>
+	<!-- /body -->
+</div>
+</body>
+</html>

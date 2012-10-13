@@ -1,0 +1,19 @@
+TerreBlog
+
+Instalar previamente:
+$ gem install sinatra
+$ gem install rack
+
+
+Para ejecutar:
+	Rake -f Rakefile
+
+Abrir una ventana del navegador y ir a :
+	http://localhost:4567/
+
+Nota:
+Si al momento de ejecutar el comando anterior muestra el siguiente mensaje de error:
+C:/Program Files (x86)/RailsInstaller/Ruby1.9.3/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in 'require': cannot load such file -- thin (LoadError)
+Instalar thin pero con los siguientes parámetros:
+
+$ gem install thin -v 1.2.11
