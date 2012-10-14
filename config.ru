@@ -1,8 +1,5 @@
-$LOAD_PATH.unshift 'lib'
+$LOAD_PATH.unshift 'lib
+root = ::File.dirname(__FILE__) 
+require ::File.join( root, 'blog' ) 
+run MyApp.new 
 
-# this is optional
-require 'rack/cache'
-use Rack::Cache
-
-require 'blog'
-run Blog
