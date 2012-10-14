@@ -1,9 +1,9 @@
-require 'sinatra/base'
+require 'sinatra'
 require 'ostruct'
 require 'time'
 require 'yaml'
 
-class Blog < Sinatra::Base
+class Blog < Sinatra::Application
   set :root, File.expand_path('../../', __FILE__)
   set :articles, []
   set :app_file, __FILE__
